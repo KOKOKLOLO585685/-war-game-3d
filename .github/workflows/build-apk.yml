@@ -21,6 +21,9 @@ jobs:
           npm install
           npm run build
           npx cap add android
+          mkdir -p assets
+          cp icon.* assets/icon.png
+          npx capacitor-assets generate --android
           npx cap sync android
       - name: Build APK
         run: |
