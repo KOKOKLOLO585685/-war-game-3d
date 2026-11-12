@@ -1,0 +1,8 @@
+{
+  "appId": "com.warfire.game3d",
+  "appName": "War Fire 3D",
+  "webDir": "www",
+  "server": {
+    "androidScheme": "https"
+  }
+}
